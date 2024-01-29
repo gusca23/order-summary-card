@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+</head>
+<body>
+
+  <section class="card"> <!--CARD CONTAINER-->
+    <img class="card-img" src="./images/illustration-hero.svg" alt="illustration-hero">
+    <div class="card-content">
+      <div class="card-description"> <!--DESCRIPTION-->
+        <h1 class="description-title">Order Summary</h1>
+        <p class="description-paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
+      </div>
+    
+      <div class="card-plan"> <!--PLAN-->
+        <div class="card-plan__section1">
+          <img class="plan-img" src="./images/icon-music.svg" alt="icon-music">
+          <div class="plan-description">
+            <p class="plan-description__title">Annual Plan</p>
+            <p class="plan-description__price">$59.99/year</p>
+          </div>
+        </div>
+        <a class="plan-change-button" href="#">Change</a>
+      </div>
+  
+      <button class="card-button__payment">Proceed to Payment</button>
+      <a href="#" class="card-button__cancel">Cancel Order</a>
+    </div>
+  </section>
+
+</body>
+</html>
